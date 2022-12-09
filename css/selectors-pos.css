@@ -1,0 +1,31 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+ul a:link {
+    color: black;
+}
+
+ul > li {
+    border: 1px solid black;
+}
+
+
+ul >li:nth-of-type(2) {
+    color: red;
+}
+
+ul>li:not(:first-child) {
+    list-style-type: square;
+}
+
+h1+p {
+    font-size:22px;
+}
+
+/* ~ selects all the  */
+img ~ h1 {
+    font-size: 3rem;
+}
+

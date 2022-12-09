@@ -1,0 +1,104 @@
+
+/* -Μπορούμε να στοιχίσουμε
+τα boxes (div, outer box) αριστερά, δεξια
+με float και στον κεντρο με auto margins.
+
+-Στο inner box του div μπορούμε
+να στοιχίσουμε κείμενο και ιnline boxes
+με text-align στον parent
+- Τα εσωτερικά block elements
+στοιχίζονται όπως τα εξωτερικά
+με float κι auto-margins
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    height: 120px;
+    border: 1px solid black;
+    background-color: rgb(143, 182, 206);
+}
+
+.container{
+    /* To create a block
+    formatting context to
+    the parent element, we apply overflow: hidden */
+   overflow: hidden;
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   border:  2px solid red;
+}
+
+.aside{
+    float: right;
+    height:  150px;
+    width: 200px;
+    border:  1px solid black;
+    background-color: rgb(203, 148, 206);
+}
+
+.main {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(178, 182, 118);
+}
+
+
+
+
+
+.footer {
+    /* clear: both δημιουργεί ένα
+    block formatting context για τα floats  */
+    clear: both;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(143,143,199);
+    opacity: 0.5;
+}
+
+/* Για να δώσουμε full-bleed layout(full width)
+ στο main κι aside δεν μπορύμε να το κανουμε με τον
+ container γιατί έχει περιορισμένο width για να μπορεί 
+ να στοιχίσει σοτ κέντρο
+ Εισάγω ένα wrapper container */
+
+.container-fluid{
+    background-color: rgba(96, 103, 103, 0.543);
+}
+/**
+footer overflow hidden so as to
+ create a block context
+
+*/
+
+.footer {
+    overflow: hidden;
+    min-height: 150px;
+    border: 1px solid black;
+    background-color: rgb(143, 143, 199);
+}
+
+
+.footer-item {
+    float: left;
+    height: 100px;
+    /**
+    width is given in per cent to 
+    fit to various screen sizes
+    */
+    width:  30%;
+    background-color: rgb(232, 232, 141);
+    border: 1px solid black;
+    margin: 10px 1.5%;
+
+}

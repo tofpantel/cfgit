@@ -1,0 +1,31 @@
+/* The asterisk means I slightly change the default settings*/
+/* Asterisk means select evrything, all the UI elements */
+/* margin: top bottom left right;  */
+* {
+    margin: 10px 2px;
+}
+
+.container {
+    background-color: gray;
+}
+
+/* Normally .container > h2  means that h2 is the 
+immediate descendant of the container class */
+/* first-of-type is a pseudo-class  */
+.container > h2:first-of-type{
+    font-size: 1.5rem;
+    background-color: red;
+}
+
+.container > p:first-of-type {
+    color: red;
+}
+
+ul > li:first-child {
+    font-weight: bold;
+ }
+
+ ul > li:nth-child(3) {
+    color: green;
+ }
+

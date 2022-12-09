@@ -1,0 +1,11 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: width 2.15s ease;
+}
+
+.box1:hover {
+    width: 500px;
+    transition: width 2s steps(48, end);
+}

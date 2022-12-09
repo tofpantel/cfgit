@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <!-- Form are written inside the <form> </form> -->
+    <form>
+        <!-- <div> is a container -->
+        <div>
+            <label for="username">Username</label>
+            <!-- <input> doesn t have a closing tag-->
+            <!--  need to connect the label with the form to be filled
+            in order to enhance the user expereince if someone taps the name(not the blank part) by acicdent -->
+             <input type="text" id="username" placeholder = "your name">
+
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+        </div>
+
+        <!-- create a text box to write messages -->
+        <div>
+            <label for="message">Message</label>
+            <textarea id = "message" cols="30" rows = "10"></textarea>
+        </div>
+        
+        <!-- create a submit button, to send the data to the server -->
+        <div>
+            <input type="submit" value = "Submit">
+        </div>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

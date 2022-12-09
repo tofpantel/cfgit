@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia; color: #444;
+    font-size: 1.2rem;
+}
+
+.main-page{
+    background-color: #f5f5f5;
+    border: solid rgb(249, 246, 246); 
+}
+
+.header{ 
+    background-color: seashell;
+    border: solid rgb(2, 2, 2); 
+}
+
+.profile{
+    background-color: solid rgb(153, 42, 42); 
+    width: 80%;
+    
+}
+
+
+.bg-primary {
+    background-color: seashell;
+}

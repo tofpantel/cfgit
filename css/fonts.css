@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Roboto:wght@300;400;500&display=swap');
+
+.container{
+    width: 90%;
+}
+
+.container-cf-title{
+    font-family: 'Roboto', Times, serif;
+    font-size: 2.5rem;
+    font-style: oblique;
+    width: 90%;
+    background-color: #f5f5f5;
+}
+
+
+.cf-title{
+
+    font-family: 'Roboto', Times, serif;
+    font-size: 2.5rem;
+    font-style: oblique;
+}
+
+.cf-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: semi-condensed;
+    font-weight: 300;
+    line-height: 1.5;                             ;
+}
+
+
+.courses-title{
+    font-family: 'Roboto slab', serif;
+    font-weight: 400;
+    color: #762124;
+    text-shadow:2px 2px 2px red;
+    text-decoration: underline;
+}
+
+.courses-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: rgba(204, 255, 0, 0.667);
+    text-align: justify;
+    text-indent: 10px;
+    border: 2px dashed green
+
+}

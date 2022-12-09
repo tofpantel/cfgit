@@ -1,0 +1,10 @@
+body {
+    background-color: green;
+}
+
+/* media all is the default body */
+@media all {
+    body {
+        background-color: green;
+    }
+}

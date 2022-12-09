@@ -1,0 +1,16 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95,95,95);
+    transform-origin: right bottom;
+    transition: transform 1s ease-in;
+
+}
+
+.box1:hover {
+    /* transform: scale(3); */
+    /* transform: rotate(360deg); */
+    /* transform: translate(30px, 400px); */
+    /* transform: skew(20deg); */
+    transform: scale(3) rotate(180deg) translate(0, 400px) skew(-90deg);
+}

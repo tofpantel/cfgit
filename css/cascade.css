@@ -1,0 +1,15 @@
+/* Classes have a priority over tags when selecting 
+elements to implement the styling 
+In general id > class > tag*/
+
+#auebText {
+    color: yellow;
+}
+
+.aueb-text {
+    color:  red;
+}
+
+/* p{
+    color: green!important;
+} */

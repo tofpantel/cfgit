@@ -1,0 +1,19 @@
+/* all the following classes 
+have white as color. I can group them
+Check class-combination2.css*/
+
+.aueb-title{
+    color: white;
+    background-color:brown ;
+
+}
+
+.cf-title{
+    color: white;
+    background-color: green;
+}
+
+.aueb-text{
+    color: white;
+    background-color: blue;
+}

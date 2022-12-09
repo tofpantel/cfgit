@@ -1,0 +1,18 @@
+.container {
+    width: 350px;
+    height: 500px;
+    position: relative;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.item-abs {
+    position: 50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    background-color: rebeccapurple;
+}

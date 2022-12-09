@@ -1,0 +1,21 @@
+/* https://cdnjs.com
+for css libaries */
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cf-wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.social{
+    font-size: 2rem;
+}
+
+.social > .fa-facebook {
+    color: blue;
+}
+
+

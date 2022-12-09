@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.outer{
+    width: 30%;
+    background-color: rgba(138, 5, 5, 0.867);
+    margin: 20px auto;
+    padding: 8px 9px;
+}
+
+
+
+.middle{
+    width: 99%;
+    background-color: rgb(74, 131, 236);
+    margin: auto auto;
+    padding: 4px 4px;
+    border-radius: 8%;
+}
+
+.inner-shell{
+    width: 100%;
+    background-color: white;
+    margin: auto auto;
+    padding: 17px 10px;
+    border-radius: 8%;
+}
+
+.inner{
+    width: 100%;
+    background-color: white;
+    margin: auto auto;
+    padding: 17px 10px;
+    border-radius: 5%;
+}
+.gap-bottom{
+    padding: 12px;
+}
+
+
+
+.form-input{
+    border: 1.5px solid black;
+    width: 80%;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 50px;
+} 
+
+
+.e-mail{
+    background-image: url(../Εικόνες-Άσκησης-20221118/account.png);
+    background-position: left;
+    padding-left: 50px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.password{
+    background-image: url(../Εικόνες-Άσκησης-20221118/account.png);
+    background-position: left;
+    padding-left: 50px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.form-button{
+    width: 60%;
+    height: 55px;
+    background-color: rgb(96, 207, 235);
+    border-radius: 20px;
+    border: 1.5px solid black;
+}
+
+.gap-top{
+    padding-bottom: 40px;
+}

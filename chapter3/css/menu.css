@@ -1,0 +1,39 @@
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    border: 1px solid black;
+}
+
+.aueb-img{
+    width: 500px;
+    height:auto;
+    vertical-align: middle;
+}
+
+/* inline-block has to be given for both 
+the container and the list elements*/
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Menus have as semantics the <ul> and <li> */
+.nav li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 5px;
+    font-size:  1.2rem;
+}
+
+.nav a:hover {
+    color: green;
+}

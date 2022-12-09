@@ -1,0 +1,30 @@
+img{
+    width: 400px;
+    height: auto;
+}
+
+ul a:link{
+    color:green;
+}
+
+ul > li{
+    border: 1px solid black;
+
+}
+
+ul > li:first-child{
+    color: rgb(76, 0, 255);
+}
+ul > li:not(:first-child) {
+    border: 1px solid black;
+}
+
+h1 + p{
+    font-size:22px;
+    background-color: green;
+    
+}
+
+img ~ p{
+    background-color: aqua;
+}

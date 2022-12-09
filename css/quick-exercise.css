@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Roboto+Slab:wght@200;400&family=Roboto:wght@300;400;500&display=swap');
+
+.container{
+    width: 90%;
+}
+
+.icon-aueb{
+    width: 800px;
+    height: auto;
+}
+
+.cf-title{
+    font-family: 'Roboto slab', serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 500;
+    color: #762124;
+    text-shadow:1px 1px 1px black;
+
+}
+
+.cf-text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 50;
+    text-align: justify;
+    /* font-size: 2.5rem; */
+    /* background-color: rgba(204, 255, 0, 0.667); */
+    /* text-indent: 10px; */
+    /* border: 2px dashed green */
+
+}

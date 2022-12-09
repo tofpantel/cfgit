@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(33, 25, 25);
+}
+
+/* select with class */
+.aueb-logo{
+    width: 800px;
+    height: auto;
+}
+
+/* It's wrong using id as a Selector  */
+/* #auebText{
+    color: white;
+    background-color: black;
+} */
+
+/* .aueb-text selects all similar classes  */
+/* .aueb-text{
+    color: yellowgreen;
+    background-color: black;
+} */
+
+/* All p elements with class aueb-text */
+p.aueb-text{
+    color: white;
+    background-color: black;
+}
+
+/* All h1 elements with class aueb-text */
+
+h1.aueb-text{
+    color: yellowgreen;
+    background-color: brown;
+}

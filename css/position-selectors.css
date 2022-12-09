@@ -1,0 +1,20 @@
+/* Direct descendants of <ul> */
+ul>li{
+    color: blue;
+}
+
+/* It will only select the <strong>s */
+ul strong{
+    background-color: gray;
+}
+
+/* It will only select the <em>s */
+
+ul em{
+    background-color: gainsboro;
+}
+
+
+h1 + p{
+    background-color: greenyellow;
+}

@@ -1,0 +1,13 @@
+body {
+    background-colour: black;
+
+}
+
+/* we select which media the 
+rule will be applied on */
+
+@media print {
+    body {
+        background-color: grey;
+    }
+}

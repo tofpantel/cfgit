@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    border: 10px solid black;
+    text-align: center;
+    min-height: 100px;
+}
+
+
+/* inline elements 
+don't have weight and height */
+a {
+    display:inline;
+    justify-content: space-around;
+    border: 1px solid black;
+    width:300px;
+    height: 600px;
+}
+
+.container > h3:nth-child(3){
+    color:red
+
+}
+/* h3 {
+    display: inline-block;
+    margin-right: 125px;
+} */

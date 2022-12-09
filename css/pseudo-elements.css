@@ -1,0 +1,13 @@
+/*  :: crates a new UI element */
+/*  I only implement after and before in
+elements wihch have content and 
+they're not void
+ */
+
+.lastname::after {
+    content: '\1F600' ;
+}
+
+.firstname::before {
+    content: '\1F604'
+}

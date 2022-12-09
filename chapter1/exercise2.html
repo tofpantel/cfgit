@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <div style="margin-top: 5; margin-left: 10px;">
+            <h1>Φόρμα Πληρωμής</h1>
+            <p>Τα υποχρεωτικά πεδία ακολουθούνται από
+                <abbr title = "Required field">*.</abbr> </p>
+        </div>
+
+        <div style="margin-top: 5; margin-left: 10px;">
+            <h2>Προσωπικά Στοιχεία</h2>
+        </div>
+
+
+        <div style="margin-top: 15; margin-left: 150px;">
+            <div style="display: inline-block; text-align: left;">
+                <fieldset style="width: 300px;">
+                    <legend>Title</legend>
+                            <!-- create radio buttons -->
+
+                    <div>
+                        <input type="radio" name="gender" id="male" value = "Male" checked>
+                        <label for="male">Mr.</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="gender" id="female" value = "Female">
+                        <label for="female">Mrs.<label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="gender" id="doctor" value = "Doctor">
+                        <label for="doctor">Dr.<label>
+                    </div>
+
+                </fieldset>
+
+            </div>
+        </div>
+
+
+<!-- Create the input boxes -->
+
+        <div class="" style="margin-top: 20px; margin-left: 150px;"> 
+            <div style="margin-top:20px; text-align: left;">
+                <label for="lastname">Name:<abbr title = "Required field">
+                    *</abbr></label>
+                <input type="text" name="lastname" id="lastname" required >
+            </div>
+    
+            <div style="margin-top:15px;  text-align: left;">
+                <label for="email">Email:<abbr title = "Required field">
+                    *</abbr></label></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div style="margin-top:15px;  text-align: left;">
+                <label for="pass">Password:<abbr title = "Required field">
+                    *</abbr></label>
+                <input type="password" name="pass" id="pass" 
+                minlength="8" required>
+            </div>
+        </div> 
+        
+     <!-- end of the input boxes  -->
+
+     <!-- New header -->
+
+        <div style="margin-top: 15; margin-left: 10px;">
+            <h2>Πληροφορίες Πληρωμής</h2>
+        </div>
+
+        <!-- Create a combo box -->
+
+        <div class="" style="margin-top: 20px; margin-left: 150px;"> 
+            <div style="margin-top:20px; text-align: left;">
+                <label for="card-type">Card type: </label>
+                <select name="card-type" id="card-type">
+                    <option value="1">Mastercard</option>
+                    <option value="2">Visa</option>
+                    <option value="3">Maestro</option>
+                    <option value="4">American Express</option>
+                </select>
+            </div>
+    
+            <div style="margin-top:15px;  text-align: left;">
+                <label for="card-number">Card number:<abbr title = "Required field">
+                    *</abbr></label>
+                <input type="number" name="card-number" id="card-number" 
+                minlength="16" maxlength="16" required>
+            </div>
+
+            <div style="margin-top:15px;  text-align: left;">
+                <label for="expiration date">Expiration date:<abbr title = "Required field">
+                    *</abbr></label>
+                <input type="text" placeholder = "MM/YY" maxlength="5" 
+                pattern="^(0?[1-9]|1[0-2])/\d{2}$"  required>
+            </div>
+                    <!-- Create a submit button -->
+        <div style="margin-top:15px; margin-left: 10px;">
+            <input type="submit" value="Προχωρήστε στην πληρωμή">
+        </div>
+        </div> 
+
+
+
+
+    </form>
+    
+</body>
+</html>

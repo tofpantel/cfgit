@@ -1,0 +1,31 @@
+/* Love Fears Hate */
+/* Link, Visited, Focus, Hover, Active */
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+/*  if it was a menu, link and 
+visited get the same color */
+
+a:visited{
+    color: brown;
+}
+
+a:focus{
+    outline: none;
+    background-color: yellow;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+a:active{
+    background-color: green;
+    color: white;
+}
+
+
+

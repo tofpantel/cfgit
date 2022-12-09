@@ -1,0 +1,34 @@
+/* Say we want to select the h2 and p elements bearing id attribute set */
+
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+
+/* Select the anchor elements having a very specific value 
+say href = # and then hover*/
+
+a[href = "#"]:hover {
+    background-color: burlywood;
+}
+
+/* select anything that a classname starts with the word 
+info and everything after that */
+/*  ^ means the start of a string */
+*[class^="info"]{
+    background-color: chartreuse;
+}
+
+/* Select anything that has a classname that includes text */
+*[class^="text"]{
+    background-color: red;
+}
+
+/* Selects h2 elements that have classname ending with "title"  */
+h2[class$="title"] {
+    font-style: italic;
+}
+
+/* links the start with "https" and ends with ".gr" */
+a[href^="https"][href$=".gr"]{
+    color: green;
+}
